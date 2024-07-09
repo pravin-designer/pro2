@@ -1,4 +1,23 @@
+
+body{
+    margin: 0;
+    background-color:rgb(235, 235, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 div{
+    background-color:  aliceblue ;
+    height: auto;
+    width: 600px;
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -7,6 +26,8 @@ input{
     width: 250px;
     height: 00px;
     margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgb(243, 240, 240);
 }
 #address{
     margin-top: 10px;
@@ -14,5 +35,23 @@ input{
     height: 75px;
 }
 #type{
+  
+    text-align:left;
     
+}
+#save{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#cancel{
+    background-color: aliceblue;        
+    border: none;
+    color: rgb(86, 86, 169);
+    font-weight: bold;
+    padding-bottom: 30px;
 }
