@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <title>Address</title>
+    <link rel="stylesheet" href="./css/address.css">
 </head>
 <body>
     <h1>Add your address</h1>
+    <div>
 <form action="#" method="get">
     <input type="text"  name="name" placeholder="Name" >
     <input type="text"  name="Contact" placeholder="10-digit phone number"><br>
@@ -15,12 +17,13 @@
     <input type="text" name="state" placeholder="state"><br>
     <input type="text" name="landmark" placeholder="Landmark{optional}">
     <input type="text" name="altphone" placeholder="Alternative phonenumber{optional}">
-<p>Address Typr</p>
+<p id="type">Address Type</p>
 <p><input type="radio" name="addresstype">Home{All day delivery}
 <input type="radio" name="addresstype">Work{Deliver between 10 AM-5 PM}</p>
 
 <input type="submit" value="SAVE AND DELIVERY HERE">
 <input type="submit" value="CANCEL">
 </form>
+</div>
 </body>
 </html>
